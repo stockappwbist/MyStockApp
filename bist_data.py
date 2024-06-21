@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def r_hello_world():
-    return jsonify({'msg': 'e'})
+    return 'Selam Yunus'
 
 
 if __name__ == '__main__':
