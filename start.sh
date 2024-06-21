@@ -1,2 +1,2 @@
 
-gunicorn bist_data:app
+gunicorn bist_data:app -w 1 --log-file -
